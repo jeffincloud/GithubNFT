@@ -52,5 +52,4 @@ export RECIPIENT="0xe3b846b88e6640e8dd1fdcdd3c6dd25e2da63b7d59f91b5e5016a37fe894
 sui client call --package $PACKAGE --module $MODULE --function mint --args $MINTRECORD "Nubytek NFT 1" "https://i.ibb.co/SsDSqXn/Screenshot-2024-10-01-at-10-56-07-AM.png" $RECIPIENT
 ```
 
-
-
+Code tested on testnet. For multiple miints you could iterate the last function. 
