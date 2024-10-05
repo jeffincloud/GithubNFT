@@ -9,8 +9,12 @@ Even though the smart contract is written on Sui Move we will need to use SUI CL
 
 ```bash
 sui move build
+```
+
+You should get a message like this if succeeded
+
+```bash
 ###############################################################
-#You should get a message like this if succeeded
 # UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 # INCLUDING DEPENDENCY Sui
 # INCLUDING DEPENDENCY MoveStdlib
